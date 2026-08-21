@@ -4,7 +4,7 @@ public class twoDMax {
             {5,10,},
             {28,18,3,15},
             {7,12,9,}
-        };
+        };// checking the max element in the array
         int max = arr[0][0];
         for(int row=0; row < arr.length; row++){
             for(int col=0; col<arr[row].length; col++){
